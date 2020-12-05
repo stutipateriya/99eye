@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+form.form-inline {
+  width: -webkit-fill-available;
+  justify-content: center;
+}
+
+button#dropdown-custom-components {
+  background-color: beige;
+  border-color: beige;
+}
+.dropdown-toggle::after{
+  color: red;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem beige;
+}
+.dropdown-menu{
+  min-width: 30rem;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+

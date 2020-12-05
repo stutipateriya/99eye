@@ -1,0 +1,21 @@
+.drinkimg{
+    width: 100%;
+    border-radius: 4rem 4rem 0rem 0rem;
+}
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 0rem;
+    /* border: 2px solid black; */
+    border-radius: 4rem;
+    margin: 2rem;
+}
+@media only screen and (max-width:1024px){
+    .dropdown-menu.show {
+      margin-left: -8.7rem !important;
+      min-width: 25rem !important;
+  }
+  .dropdown{
+      margin:1rem
+  }
+  }
