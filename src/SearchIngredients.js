@@ -80,7 +80,7 @@ class SearchIngredients extends Component {
           search={(param) => this.search(param)}
           handleFilter={(key) => this.handleFilter(key)}
         />
-
+        {data && <h6>Showing {data.length} results</h6>}
         {data ? (
           data.map((item, i) => {
             return (
