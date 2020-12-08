@@ -68,7 +68,7 @@ class SearchIngredients extends Component {
         "https://www.thecocktaildb.com/api/json/v1/1/search.php?s=" +
           item.strDrink
       ).then((res) =>
-        this.setState({ allDrinks: res.data.drinks, filter: true })
+        this.setState({ allDrinks: res.data.drinks, filter: true, fill: res.data.drinks })
       );
     });
   };
